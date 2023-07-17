@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "0947d2a1-4fbf-475d-8b67-a9d45068230b",
+		"name": "Project NoSQL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28307021"
+	},
+	"item": [
+		{
+			"name": "Count Sales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/count",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Total Sales by country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/total-by-country",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"total-by-country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Total Sales by month",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/total-by-month",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"total-by-month"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Total Customer by month",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/customer-puchaseed-by-month",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"customer-puchaseed-by-month"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Customer by month",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/new-customer-by-month",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"new-customer-by-month"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Best selling products by each country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/best-selling-by-country",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"best-selling-by-country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Most successful products overall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/most-successful-product",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"most-successful-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Most contributed customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/v1/sales/most-contributed-customer",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"sales",
+						"most-contributed-customer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
